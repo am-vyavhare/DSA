@@ -31,7 +31,7 @@ The problems are organized into different folders based on categories such as ar
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/am-vyavhare/DSA-Cpp.git
+   git clone https://github.com/am-vyavhare/DSA.git
 
 ## 👨‍💻 Developer
 
