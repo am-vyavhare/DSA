@@ -22,6 +22,10 @@ The problems are organized into different folders based on categories such as ar
 
 - Files that start with a **number** (e.g., `54_Spiral_Matrix.cpp`) represent the **LeetCode problem number**.  
   - Example: `54_Spiral_Matrix.cpp` → Solution to **LeetCode Problem #54 (Spiral Matrix)**.  
+
+- Files that start with a **CN** (e.g., `CN_Binary_Search.cpp`) represent the **Coding Ninjas Platform Problem**.  
+  - Example: `CN_Binary_Search.cpp` → Solution to **Coding Ninjas Platform Problem Name - Binary Search**.  
+
 - Other files without numbers represent **Coding Ninjas Platform Problems Solution or practice codes**.  
   - Example: `Sum_of_Two_Arrays.cpp` → A custom array problem solution.  
 
