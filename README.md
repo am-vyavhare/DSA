@@ -41,4 +41,4 @@ The problems are organized into different folders based on categories such as ar
 
 **Aniket Vyavhare**  
 📧 amvyavhare@gmail.com  
-🔗 [GitHub](https://github.com/am-vyavhare) | [LinkedIn](https://www.linkedin.com/in/aniket-vyavhare/)
+🔗 [GitHub](https://github.com/am-vyavhare) | [LinkedIn](https://www.linkedin.com/in/am-vyavhare/)
