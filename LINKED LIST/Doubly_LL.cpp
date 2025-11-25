@@ -41,6 +41,22 @@ void print(Node* &head){
     }
 }
 
+//Reverse Printing
+void printReverse(Node* &tail){
+    //If Linked List is Empty
+    if(tail == NULL){
+        cout<<"\nLinked List is Empty"<<endl;
+    }
+    else{
+    Node* temp = tail;
+    
+    while(temp != NULL){
+        cout<<temp->data<<" - ";
+        temp = temp -> previous;
+    }    
+    }
+}
+
 // Linked List Length Returning Function
 int getLength(Node* &head){
     //If Linked List is Empty
@@ -208,6 +224,9 @@ int main(){
     DeleteNode(head, tail, position);
     print(head);
 
+    cout<<"\nPrinting the Linked List in the Reverse Order"<<endl;
+    printReverse(tail);
+    
     cout << "\nhead -> " << head -> data << endl;
     cout << "tail -> " << tail -> data << endl;
     return 0;
