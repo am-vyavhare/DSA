@@ -34,7 +34,7 @@ void InsertNodeAt(Node* &head, int data, int element){
             temp = temp -> next;
             if(temp == head){
                 cout<<"\nThe given element - "<<element<<" is not present in the Linked List";
-                break;
+                return;
             }
         }
 
