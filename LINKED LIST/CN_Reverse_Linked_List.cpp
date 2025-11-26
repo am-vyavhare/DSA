@@ -35,7 +35,7 @@ LinkedListNode<int> *reverseLinkedList(LinkedListNode<int> *head)
         current -> next = previous;
         previous = current;
         current = forward;
-    }
+    }   
     return previous;
 }
 }
