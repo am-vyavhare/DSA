@@ -1,6 +1,5 @@
 class Solution {
     private:
-    
     vector<int> nextSmallerElement(vector<int> arr, int n){
     //stack to store the right compare elements
     stack<int> s;
@@ -97,7 +96,6 @@ class Solution {
             area = max(area, largestRectangleArea(mat[i], column));
             
         }
-        return area;
-        
+        return area;  
     }
-};
+};  
