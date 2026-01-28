@@ -1,3 +1,30 @@
+//first approach by finding the difference by dividing total by n
+#include <bits/stdc++.h>
+using namespace std;
+
+int missingNumber(vector<int> &arr, int n) 
+{
+    // Calculate the correct common difference of the AP
+    // Total difference divided by number of elements
+    int diff = (arr[n - 1] - arr[0]) / n;
+
+    // Traverse the array to find where the progression breaks
+    for (int i = 0; i < n - 1; i++) {
+
+        // If next element is not following the AP rule
+        if (arr[i + 1] - arr[i] != diff) {
+
+            // Missing number is current element + common difference
+            return arr[i] + diff;
+        }
+    }
+
+    // If no missing number is found (safe fallback)
+    return -1;
+}
+
+
+//second approach by finding the correct progression from starting element
 #include <bits/stdc++.h> 
 int missingNumber(vector<int> &arr, int n) 
 {
