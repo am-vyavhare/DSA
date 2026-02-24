@@ -1,4 +1,6 @@
 //Method 1 - Iterative approach
+class Solution {
+public:
 int search(vector<int>& nums, int target) {
     //declare start and end pointer
     int start = 0;
@@ -18,6 +20,7 @@ int search(vector<int>& nums, int target) {
     //if not fount return -1
     return -1;
 }
+};
 
 //Method 2 - using recursion 
 class Solution {
